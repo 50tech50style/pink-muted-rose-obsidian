@@ -712,34 +712,34 @@ settings:
 /* Rose-themed callout icons and accents */
 .callout[data-callout="tip"],
 .callout[data-callout="hint"] {
-  --callout-color: 196, 84, 122;
+  --callout-color: rgb(196, 84, 122);
   --callout-icon: lucide-sparkles;
 }
 
 .callout[data-callout="success"],
 .callout[data-callout="done"],
 .callout[data-callout="check"] {
-  --callout-color: 43, 180, 120;
+  --callout-color: rgb(43, 180, 120);
   --callout-icon: lucide-check-circle-2;
 }
 
 .theme-light .callout[data-callout="success"],
 .theme-light .callout[data-callout="done"],
 .theme-light .callout[data-callout="check"] {
-  --callout-color: 61, 94, 74;
+  --callout-color: rgb(61, 94, 74);
 }
 
 .callout[data-callout="warning"],
 .callout[data-callout="caution"],
 .callout[data-callout="attention"] {
-  --callout-color: 138, 112, 32;
+  --callout-color: rgb(138, 112, 32);
   --callout-icon: lucide-alert-triangle;
 }
 
 .theme-light .callout[data-callout="warning"],
 .theme-light .callout[data-callout="caution"],
 .theme-light .callout[data-callout="attention"] {
-  --callout-color: 200, 176, 48;
+  --callout-color: rgb(200, 176, 48);
   background: #FAF5E0 !important;
   border-left: none !important;
   border-radius: 8px !important;
@@ -747,35 +747,35 @@ settings:
 
 .callout[data-callout="danger"],
 .callout[data-callout="error"] {
-  --callout-color: 196, 84, 84;
+  --callout-color: rgb(196, 84, 84);
   --callout-icon: lucide-zap;
 }
 
 .callout[data-callout="info"] {
-  --callout-color: 43, 180, 120;
+  --callout-color: rgb(43, 180, 120);
   --callout-icon: lucide-info;
 }
 
 .theme-light .callout[data-callout="info"] {
-  --callout-color: 61, 94, 74;
+  --callout-color: rgb(61, 94, 74);
 }
 
 .callout[data-callout="question"],
 .callout[data-callout="help"],
 .callout[data-callout="faq"] {
-  --callout-color: 196, 84, 122;
+  --callout-color: rgb(196, 84, 122);
   --callout-icon: lucide-help-circle;
 }
 
 .callout[data-callout="quote"],
 .callout[data-callout="cite"] {
-  --callout-color: 122, 85, 112;
+  --callout-color: rgb(122, 85, 112);
   --callout-icon: lucide-quote;
 }
 
 /* Custom callout: rose */
 .callout[data-callout="rose"] {
-  --callout-color: 196, 84, 122;
+  --callout-color: rgb(196, 84, 122);
   --callout-icon: lucide-flower-2;
 }
 
@@ -784,7 +784,7 @@ settings:
   background: #D4B0C0 !important;
   border-left: none !important;
   border-radius: 8px !important;
-  --callout-color: 255, 246, 250;
+  --callout-color: rgb(255, 246, 250);
   color: #FFF6FA !important;
 }
 
@@ -797,7 +797,7 @@ settings:
   background: #D4B0C0 !important;
   border-left: none !important;
   border-radius: 8px !important;
-  --callout-color: 255, 246, 250;
+  --callout-color: rgb(255, 246, 250);
   color: #FFF6FA !important;
 }
 
@@ -807,7 +807,7 @@ settings:
   background: #9E6C84 !important;
   border-left: none !important;
   border-radius: 8px !important;
-  --callout-color: 255, 246, 250;
+  --callout-color: rgb(255, 246, 250);
   color: #FFF6FA !important;
 }
 
@@ -819,7 +819,7 @@ settings:
 .theme-dark .callout[data-callout="warning"],
 .theme-dark .callout[data-callout="caution"],
 .theme-dark .callout[data-callout="attention"] {
-  --callout-color: 200, 176, 48;
+  --callout-color: rgb(200, 176, 48);
   background: #FAF5E0 !important;
   border-left: none !important;
   border-radius: 8px !important;
@@ -835,7 +835,7 @@ settings:
   background: #9E6C84 !important;
   border-left: none !important;
   border-radius: 8px !important;
-  --callout-color: 255, 246, 250;
+  --callout-color: rgb(255, 246, 250);
   color: #FFF6FA !important;
 }
 
@@ -849,12 +849,12 @@ settings:
 
 /* Custom callout: mint */
 .callout[data-callout="mint"] {
-  --callout-color: 43, 180, 120;
+  --callout-color: rgb(43, 180, 120);
   --callout-icon: lucide-leaf;
 }
 
 .theme-light .callout[data-callout="mint"] {
-  --callout-color: 61, 94, 74;
+  --callout-color: rgb(61, 94, 74);
 }
 
 
